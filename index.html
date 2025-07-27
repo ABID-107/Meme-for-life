@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Little Little Memes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 1rem;
+    }
+    h1 {
+      margin: 0;
+    }
+    .container {
+      padding: 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .meme-card {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .meme-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .footer {
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>😂 Little Little Memes</h1>
+    <p>Fun-sized memes to brighten your day!</p>
+  </header>
+
+  <div class="container">
+    <div class="meme-card">
+      <img src="https://i.imgur.com/abc123.jpg" alt="Meme 1" />
+    </div>
+    <div class="meme-card">
+      <img src="https://i.imgur.com/def456.jpg" alt="Meme 2" />
+    </div>
+    <div class="meme-card">
+      <img src="https://i.imgur.com/ghi789.jpg" alt="Meme 3" />
+    </div>
+    <!-- Add more memes by copying the .meme-card block -->
+  </div>
+
+  <div class="footer">
+    Made with ❤️ for meme lovers. Free to share and enjoy!
+  </div>
+</body>
+</html>
